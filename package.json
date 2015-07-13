@@ -1,0 +1,57 @@
+{
+  "name": "axiosware",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Axios middleware for Redux.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laviro/axiosware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laviro/axiosware/issues"
+  },
+  "homepage": "https://github.com/laviro/axiosware",
+  "keywords": [
+    "api",
+    "redux",
+    "middleware",
+    "axios",
+    "redux-middleware",
+    "axios-middleware"
+  ],
+  "author": "Ron Lavi <1ronlavi@gmail.com>",
+  "main": "src/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "lint": "eslint src test"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "proseWrap": "always",
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "peerDependencies": {
+    "redux": "^4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^5.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "redux": "^4",
+    "typings-tester": "^0.3.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
